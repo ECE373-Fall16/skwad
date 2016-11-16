@@ -1,0 +1,6 @@
+framework module Pods_SkwadUITests {
+  umbrella header "Pods-SkwadUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

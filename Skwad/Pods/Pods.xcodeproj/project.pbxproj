@@ -1,0 +1,798 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01195332DC7CA1C80F64156C9662F345 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		042C1F9930AD52B11E46EC7B52FDB32B /* Pods-SkwadTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB47702D8562B70BCF0400FF5CBE5FDE /* Pods-SkwadTests-dummy.m */; };
+		1C4DE36B4A882452A2F74602721D7CE7 /* Pods-Skwad-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 509798E764C087598D8875FB64336587 /* Pods-Skwad-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5733EC22025B4DBB59B98F939E46B9CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		92B9DD4300E72728EEF21F65DB1FF351 /* Pods-SkwadUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5830888BE4BC7806449FA909EF05015 /* Pods-SkwadUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBB5B71C349DA7F5A93016736AA71BF3 /* Pods-Skwad-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3116C94BDAA91B0F9E0389E54E8A156 /* Pods-Skwad-dummy.m */; };
+		CD56E65CB62B6CB92B3C3AE379B83994 /* Pods-SkwadUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA052C201C50B8FE462EC433179EBBC9 /* Pods-SkwadUITests-dummy.m */; };
+		DD6D0E7C063E21718A510B40DC161DA3 /* Pods-SkwadTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E71AC614DC377C5064207641CC596ED4 /* Pods-SkwadTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E57AB7E8B5B792BB63D533D7482CFB14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0570E5E4165EE8924C7492289121795E /* Pods_SkwadTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkwadTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		178D8FDE0929AB101863CECBB5EF70A0 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		1FCB3A499DF94478620BA9B527F342FC /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
+		38241F80F5AA876A75C2A4E2DF31D720 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		454BEB170E43495BBACDDB759862D22A /* Pods-Skwad-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Skwad-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4605DBB349534A39D955C0F2C2FBDB48 /* Pods-Skwad-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Skwad-resources.sh"; sourceTree = "<group>"; };
+		486200D765E2463223E413A4E1D9F1D4 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		4887DCF8C52E71EEF6A62032B8921EFC /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		4ADFFAC659B01ACC7E535EB7154D51AC /* Pods-SkwadTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SkwadTests.release.xcconfig"; sourceTree = "<group>"; };
+		509798E764C087598D8875FB64336587 /* Pods-Skwad-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Skwad-umbrella.h"; sourceTree = "<group>"; };
+		635A2DE4CB5BBF807D6E131F6036CE0D /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		6A7E0E9709F8632836779BF132F4AB15 /* Pods-SkwadTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SkwadTests.modulemap"; sourceTree = "<group>"; };
+		6CABBCDA3DB015FBA93379E64ABF9E47 /* Pods-SkwadUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SkwadUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7685E98568F9907C0494730FD87C24DD /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		7E64F80C93001CE2A68AFBB25CA6AD03 /* Pods-Skwad-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Skwad-acknowledgements.plist"; sourceTree = "<group>"; };
+		7F217C52C612E34DF52F25CF9DBBBCE2 /* Pods-SkwadUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SkwadUITests-frameworks.sh"; sourceTree = "<group>"; };
+		87B5DAC6330597516B03FC3CCF8CD756 /* Pods-SkwadTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SkwadTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1D253D2E26E3C303D52BAA045ABF2C8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2ED175A7EB05DA3F6EC78AB9B599E16 /* Pods-Skwad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Skwad.release.xcconfig"; sourceTree = "<group>"; };
+		A5C079CB703AA07D9D332A786334C71D /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
+		A6166B108AF1157AC533BCDE572ED90F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6D86F07F354E5387522F28A8BE8CFBD /* Pods-SkwadUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SkwadUITests.modulemap"; sourceTree = "<group>"; };
+		A81F30DC04369B2797572EC25001E6EC /* Pods_Skwad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Skwad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A83AC721CAC878E9F43DFB0FAD00E61E /* Pods-SkwadTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SkwadTests-resources.sh"; sourceTree = "<group>"; };
+		A8AEE82E0BEF4258DF8BD05B76D95938 /* Pods-Skwad-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Skwad-frameworks.sh"; sourceTree = "<group>"; };
+		ADEBD2F8347359E7E3CF5B290FF6EB04 /* Pods-SkwadTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SkwadTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BA9DD2105C15856CCF750CDD57CFF890 /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
+		BF4128193A78CBE7EC1BE83E45DC04FA /* Pods-SkwadUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SkwadUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C5830888BE4BC7806449FA909EF05015 /* Pods-SkwadUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SkwadUITests-umbrella.h"; sourceTree = "<group>"; };
+		C71E6F7E1D6CA72D0CA9CF2219D1C644 /* Pods-SkwadUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SkwadUITests-resources.sh"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CEF908E12AA280D4F3A1EE6F6F3024D4 /* Pods-SkwadTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SkwadTests-frameworks.sh"; sourceTree = "<group>"; };
+		CF610EB58667361F4C1D11C7838E270D /* Pods_SkwadUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkwadUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1B63097DC90F9DB69AA82F6272BD666 /* Pods-Skwad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Skwad.debug.xcconfig"; sourceTree = "<group>"; };
+		DB47702D8562B70BCF0400FF5CBE5FDE /* Pods-SkwadTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SkwadTests-dummy.m"; sourceTree = "<group>"; };
+		E49CC6EB4F154B6B3B738431B2FC8D16 /* Pods-SkwadUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SkwadUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E57867199F6ED569A47F7B0C2F896CF8 /* Pods-SkwadUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SkwadUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E6DC20A625796A0252C0B039D5D308BD /* Pods-Skwad.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Skwad.modulemap"; sourceTree = "<group>"; };
+		E71AC614DC377C5064207641CC596ED4 /* Pods-SkwadTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SkwadTests-umbrella.h"; sourceTree = "<group>"; };
+		E9AC004E2CFEAE37F2BE33D001FBFA95 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
+		EA052C201C50B8FE462EC433179EBBC9 /* Pods-SkwadUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SkwadUITests-dummy.m"; sourceTree = "<group>"; };
+		F3116C94BDAA91B0F9E0389E54E8A156 /* Pods-Skwad-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Skwad-dummy.m"; sourceTree = "<group>"; };
+		FC37401BB9BCCC66318E3C3C253E5E19 /* Pods-SkwadTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SkwadTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01A99A9FAC4AC596BB6E1B4AA25C2DC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5733EC22025B4DBB59B98F939E46B9CD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B4F262CDE83A4F2BEA539D90741AF43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E57AB7E8B5B792BB63D533D7482CFB14 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CB85B942BCA0B493C1F462ECD8AF11D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01195332DC7CA1C80F64156C9662F345 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07A4F2A2C2461BC26EE06966C0D3F14A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FCB3A499DF94478620BA9B527F342FC /* FirebaseDatabase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		287BE78D8600CD87035294A4084914D0 /* FirebaseCore */ = {
+			isa = PBXGroup;
+			children = (
+				DF8F1B3D597FFD34A3CAB0A06C38D0E6 /* Frameworks */,
+			);
+			path = FirebaseCore;
+			sourceTree = "<group>";
+		};
+		2FC0F1C37D8F50D0B1F68C879B1AA62B /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				DDE3B337C8578A76F10821ACE0A9F65F /* Core */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		48FD774D2F83585DABBA5DD5F8C85CC9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2FC0F1C37D8F50D0B1F68C879B1AA62B /* Firebase */,
+				D450F243880AB69B199FC79EFC589084 /* FirebaseAnalytics */,
+				287BE78D8600CD87035294A4084914D0 /* FirebaseCore */,
+				D10B9443E34023ED81E6FF80404E62AD /* FirebaseDatabase */,
+				F72444E6FB034C662874AAE6855C2DE7 /* FirebaseInstanceID */,
+				4B0922A8CACB4982081B8A5A6B8A21EE /* GoogleInterchangeUtilities */,
+				B4CCC169E8311EB6B6EC60C481266F54 /* GoogleSymbolUtilities */,
+				C36470E2B25450A3431AADE159BDB7AF /* GoogleUtilities */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4B0922A8CACB4982081B8A5A6B8A21EE /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				DBC51C109E679867F7225A67CF38EB30 /* Frameworks */,
+			);
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		58B3A59411D29F90A7873697DFA8FDBE /* Pods-SkwadTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1D253D2E26E3C303D52BAA045ABF2C8 /* Info.plist */,
+				6A7E0E9709F8632836779BF132F4AB15 /* Pods-SkwadTests.modulemap */,
+				87B5DAC6330597516B03FC3CCF8CD756 /* Pods-SkwadTests-acknowledgements.markdown */,
+				ADEBD2F8347359E7E3CF5B290FF6EB04 /* Pods-SkwadTests-acknowledgements.plist */,
+				DB47702D8562B70BCF0400FF5CBE5FDE /* Pods-SkwadTests-dummy.m */,
+				CEF908E12AA280D4F3A1EE6F6F3024D4 /* Pods-SkwadTests-frameworks.sh */,
+				A83AC721CAC878E9F43DFB0FAD00E61E /* Pods-SkwadTests-resources.sh */,
+				E71AC614DC377C5064207641CC596ED4 /* Pods-SkwadTests-umbrella.h */,
+				FC37401BB9BCCC66318E3C3C253E5E19 /* Pods-SkwadTests.debug.xcconfig */,
+				4ADFFAC659B01ACC7E535EB7154D51AC /* Pods-SkwadTests.release.xcconfig */,
+			);
+			name = "Pods-SkwadTests";
+			path = "Target Support Files/Pods-SkwadTests";
+			sourceTree = "<group>";
+		};
+		69556186FCFF1D07B57EBB7D4836CBDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7685E98568F9907C0494730FD87C24DD /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				48FD774D2F83585DABBA5DD5F8C85CC9 /* Pods */,
+				E8A5F058B31383274B7A31BB76F7968B /* Products */,
+				BA585959438E559F2821CCE1D3CC43E9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		92C8D4F899496CC1CA829ACA83A08072 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4887DCF8C52E71EEF6A62032B8921EFC /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		990D0E0AFA4EEDD4D3D21DD571ECEB7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				178D8FDE0929AB101863CECBB5EF70A0 /* GoogleUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD6A3A44E89B6E350D38556E47E5DB4F /* Pods-Skwad */ = {
+			isa = PBXGroup;
+			children = (
+				A6166B108AF1157AC533BCDE572ED90F /* Info.plist */,
+				E6DC20A625796A0252C0B039D5D308BD /* Pods-Skwad.modulemap */,
+				454BEB170E43495BBACDDB759862D22A /* Pods-Skwad-acknowledgements.markdown */,
+				7E64F80C93001CE2A68AFBB25CA6AD03 /* Pods-Skwad-acknowledgements.plist */,
+				F3116C94BDAA91B0F9E0389E54E8A156 /* Pods-Skwad-dummy.m */,
+				A8AEE82E0BEF4258DF8BD05B76D95938 /* Pods-Skwad-frameworks.sh */,
+				4605DBB349534A39D955C0F2C2FBDB48 /* Pods-Skwad-resources.sh */,
+				509798E764C087598D8875FB64336587 /* Pods-Skwad-umbrella.h */,
+				D1B63097DC90F9DB69AA82F6272BD666 /* Pods-Skwad.debug.xcconfig */,
+				A2ED175A7EB05DA3F6EC78AB9B599E16 /* Pods-Skwad.release.xcconfig */,
+			);
+			name = "Pods-Skwad";
+			path = "Target Support Files/Pods-Skwad";
+			sourceTree = "<group>";
+		};
+		B4CCC169E8311EB6B6EC60C481266F54 /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				C4D33C99AE2550164071F9BFAD50F842 /* Frameworks */,
+			);
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		B74D28A617EB1E188B29FAA56536A088 /* Pods-SkwadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				38241F80F5AA876A75C2A4E2DF31D720 /* Info.plist */,
+				A6D86F07F354E5387522F28A8BE8CFBD /* Pods-SkwadUITests.modulemap */,
+				E49CC6EB4F154B6B3B738431B2FC8D16 /* Pods-SkwadUITests-acknowledgements.markdown */,
+				BF4128193A78CBE7EC1BE83E45DC04FA /* Pods-SkwadUITests-acknowledgements.plist */,
+				EA052C201C50B8FE462EC433179EBBC9 /* Pods-SkwadUITests-dummy.m */,
+				7F217C52C612E34DF52F25CF9DBBBCE2 /* Pods-SkwadUITests-frameworks.sh */,
+				C71E6F7E1D6CA72D0CA9CF2219D1C644 /* Pods-SkwadUITests-resources.sh */,
+				C5830888BE4BC7806449FA909EF05015 /* Pods-SkwadUITests-umbrella.h */,
+				E57867199F6ED569A47F7B0C2F896CF8 /* Pods-SkwadUITests.debug.xcconfig */,
+				6CABBCDA3DB015FBA93379E64ABF9E47 /* Pods-SkwadUITests.release.xcconfig */,
+			);
+			name = "Pods-SkwadUITests";
+			path = "Target Support Files/Pods-SkwadUITests";
+			sourceTree = "<group>";
+		};
+		BA585959438E559F2821CCE1D3CC43E9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD6A3A44E89B6E350D38556E47E5DB4F /* Pods-Skwad */,
+				58B3A59411D29F90A7873697DFA8FDBE /* Pods-SkwadTests */,
+				B74D28A617EB1E188B29FAA56536A088 /* Pods-SkwadUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C36470E2B25450A3431AADE159BDB7AF /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				990D0E0AFA4EEDD4D3D21DD571ECEB7D /* Frameworks */,
+			);
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+		C4D33C99AE2550164071F9BFAD50F842 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				635A2DE4CB5BBF807D6E131F6036CE0D /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D10B9443E34023ED81E6FF80404E62AD /* FirebaseDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				07A4F2A2C2461BC26EE06966C0D3F14A /* Frameworks */,
+			);
+			path = FirebaseDatabase;
+			sourceTree = "<group>";
+		};
+		D450F243880AB69B199FC79EFC589084 /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				69556186FCFF1D07B57EBB7D4836CBDD /* Frameworks */,
+			);
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		DBC51C109E679867F7225A67CF38EB30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				486200D765E2463223E413A4E1D9F1D4 /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDE3B337C8578A76F10821ACE0A9F65F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E9AC004E2CFEAE37F2BE33D001FBFA95 /* Firebase.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		DF8F1B3D597FFD34A3CAB0A06C38D0E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5C079CB703AA07D9D332A786334C71D /* FirebaseCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8A5F058B31383274B7A31BB76F7968B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A81F30DC04369B2797572EC25001E6EC /* Pods_Skwad.framework */,
+				0570E5E4165EE8924C7492289121795E /* Pods_SkwadTests.framework */,
+				CF610EB58667361F4C1D11C7838E270D /* Pods_SkwadUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F72444E6FB034C662874AAE6855C2DE7 /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				BA9DD2105C15856CCF750CDD57CFF890 /* FIRInstanceID.h */,
+				92C8D4F899496CC1CA829ACA83A08072 /* Frameworks */,
+			);
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		195AD35B8727D443F0197BEF2227F7FB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92B9DD4300E72728EEF21F65DB1FF351 /* Pods-SkwadUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		775FA0B403776199FCDBC0D38F6ABCA7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD6D0E7C063E21718A510B40DC161DA3 /* Pods-SkwadTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C25770F24B18864A7D53643834D405AB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C4DE36B4A882452A2F74602721D7CE7 /* Pods-Skwad-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		79C2C21D18E6D85B93F2D1E69730E6E9 /* Pods-SkwadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94107C7DD4054ABCA68F678FD1322304 /* Build configuration list for PBXNativeTarget "Pods-SkwadUITests" */;
+			buildPhases = (
+				E4C6B27B24C0F3A274197677F90C7125 /* Sources */,
+				01A99A9FAC4AC596BB6E1B4AA25C2DC9 /* Frameworks */,
+				195AD35B8727D443F0197BEF2227F7FB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SkwadUITests";
+			productName = "Pods-SkwadUITests";
+			productReference = CF610EB58667361F4C1D11C7838E270D /* Pods_SkwadUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AE6D9222AD2DA130879327CF58F427A6 /* Pods-SkwadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA6472A4337C93D5E3E9CEFDCA39A302 /* Build configuration list for PBXNativeTarget "Pods-SkwadTests" */;
+			buildPhases = (
+				BDE078BDEE8B9FCA879F3D83787B9804 /* Sources */,
+				3B4F262CDE83A4F2BEA539D90741AF43 /* Frameworks */,
+				775FA0B403776199FCDBC0D38F6ABCA7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SkwadTests";
+			productName = "Pods-SkwadTests";
+			productReference = 0570E5E4165EE8924C7492289121795E /* Pods_SkwadTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DDD835FA9A8177825D3E56025C28ECF5 /* Pods-Skwad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0145E1B992DC5C665219B2284632B51 /* Build configuration list for PBXNativeTarget "Pods-Skwad" */;
+			buildPhases = (
+				DDE15B2A7EB531CE79CC0EC9002DA232 /* Sources */,
+				9CB85B942BCA0B493C1F462ECD8AF11D /* Frameworks */,
+				C25770F24B18864A7D53643834D405AB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Skwad";
+			productName = "Pods-Skwad";
+			productReference = A81F30DC04369B2797572EC25001E6EC /* Pods_Skwad.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E8A5F058B31383274B7A31BB76F7968B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDD835FA9A8177825D3E56025C28ECF5 /* Pods-Skwad */,
+				AE6D9222AD2DA130879327CF58F427A6 /* Pods-SkwadTests */,
+				79C2C21D18E6D85B93F2D1E69730E6E9 /* Pods-SkwadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDE078BDEE8B9FCA879F3D83787B9804 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042C1F9930AD52B11E46EC7B52FDB32B /* Pods-SkwadTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE15B2A7EB531CE79CC0EC9002DA232 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBB5B71C349DA7F5A93016736AA71BF3 /* Pods-Skwad-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4C6B27B24C0F3A274197677F90C7125 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD56E65CB62B6CB92B3C3AE379B83994 /* Pods-SkwadUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		034014829C1E4434983CF3A690C12017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		11EC6EFC8CA331B80FE51F3427A51FF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1B63097DC90F9DB69AA82F6272BD666 /* Pods-Skwad.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Skwad/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Skwad/Pods-Skwad.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Skwad;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1770647D62F8AC67E3DF9FD48B5F8C85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC37401BB9BCCC66318E3C3C253E5E19 /* Pods-SkwadTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SkwadTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SkwadTests/Pods-SkwadTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SkwadTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3FB169B23FF58B7B373264941EBF6EAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ADFFAC659B01ACC7E535EB7154D51AC /* Pods-SkwadTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SkwadTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SkwadTests/Pods-SkwadTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SkwadTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		43184BB99392C64877DB66562DB9D7A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CABBCDA3DB015FBA93379E64ABF9E47 /* Pods-SkwadUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SkwadUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SkwadUITests/Pods-SkwadUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SkwadUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4B13FC35B6C1645952963CCEE92FAFCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2ED175A7EB05DA3F6EC78AB9B599E16 /* Pods-Skwad.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Skwad/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Skwad/Pods-Skwad.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Skwad;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		69357309612BFE5A4132F98647BCC92B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E57867199F6ED569A47F7B0C2F896CF8 /* Pods-SkwadUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SkwadUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SkwadUITests/Pods-SkwadUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SkwadUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C7E474A03CAE21F1CB6046E7344C59BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034014829C1E4434983CF3A690C12017 /* Debug */,
+				C7E474A03CAE21F1CB6046E7344C59BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94107C7DD4054ABCA68F678FD1322304 /* Build configuration list for PBXNativeTarget "Pods-SkwadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69357309612BFE5A4132F98647BCC92B /* Debug */,
+				43184BB99392C64877DB66562DB9D7A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0145E1B992DC5C665219B2284632B51 /* Build configuration list for PBXNativeTarget "Pods-Skwad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11EC6EFC8CA331B80FE51F3427A51FF7 /* Debug */,
+				4B13FC35B6C1645952963CCEE92FAFCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA6472A4337C93D5E3E9CEFDCA39A302 /* Build configuration list for PBXNativeTarget "Pods-SkwadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1770647D62F8AC67E3DF9FD48B5F8C85 /* Debug */,
+				3FB169B23FF58B7B373264941EBF6EAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

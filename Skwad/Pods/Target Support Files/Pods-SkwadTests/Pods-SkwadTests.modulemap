@@ -1,6 +1,0 @@
-framework module Pods_SkwadTests {
-  umbrella header "Pods-SkwadTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
